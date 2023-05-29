@@ -1,0 +1,41 @@
+.home{
+    background-image: url('../images/rick-and-morty-home.jpg');
+    background-size: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+.home-wrapper{
+    background-color: black;
+    display: flex;
+}
+
+.locations{
+    position: absolute;
+    top: 60vh;
+    margin-left: 35vw;
+    text-decoration: none;
+}
+
+.characters{
+    position: absolute;
+    top: 75vh;
+    margin-left: 35vw;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 920px) {
+    .home{
+        background-size: 80vw;
+        background-position: 10vw 25vh;
+    }
+    .locations,
+    .characters{
+        margin-left: 20vw;
+    }
+}
+
