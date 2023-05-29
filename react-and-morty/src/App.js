@@ -1,6 +1,4 @@
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
-
-import "./App.scss";
 import Locations from "./Routes/Locations";
 import Home from "./Routes/Home";
 import Characters from "./Routes/Characters";

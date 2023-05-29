@@ -46,8 +46,8 @@
 }
 
 .img-container {
-    height: 450px;
-    width: 450px;
+    height: 100%;
+    width: 100%;
     overflow: hidden;
     border-radius: 20px;
     display: inline-block;
@@ -55,10 +55,9 @@
 }
 
 .img-container img {
-    height: 450px;
-    width: 450px;
-    justify-self:auto;
-    align-items:auto;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 .text-container {
