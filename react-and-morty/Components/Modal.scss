@@ -1,0 +1,79 @@
+
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left:0;
+    top:0;
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  
+  .modalContainer {
+    background: rgba(var(--bg));
+    height: auto;
+    width: auto;
+    padding: 30px;
+    position: relative;
+    border-radius: 6px;
+    color: rgba(var(--color) / 60%);
+    text-align: center;
+    margin-top: 30px;
+    align-items: center;
+    overflow: hidden;
+    cursor: auto;
+  }
+
+  .close-modal{
+    position: absolute;
+    top: 8vh;
+    left: 65vw;
+    border: none;
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+  }
+
+  .a-box {
+  display: inline-block;
+  width: 500px;
+  text-align: center;
+}
+
+.img-container {
+    height: 450px;
+    width: 450px;
+    overflow: hidden;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.img-container img {
+    height: 450px;
+    width: 450px;
+    justify-self:auto;
+    align-items:auto;
+}
+
+.text-container {
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  padding: 140px 20px 60px 20px;
+  border-radius: 20px;
+  background: #fff;
+  margin: -120px 0px 0px 0px;
+  line-height: 22px;
+  font-size: 20px;
+  color: rgba(23, 128, 70);
+}
+
+.text-container h3 {
+  margin: 20px 0px 30px 0px;
+  color: rgba(23, 128, 70);
+  font-size: 30px;
+}
